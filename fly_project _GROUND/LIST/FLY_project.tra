@@ -1,0 +1,38 @@
+*** Creating Trace Output File '.\LIST\FLY_project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\list\core_cm3.o"'
+### List of Objects: adding '".\list\system_stm32f10x.o"'
+### List of Objects: adding '".\list\delay.o"'
+### List of Objects: adding '".\list\hmc5883l.o"'
+### List of Objects: adding '".\list\i2c.o"'
+### List of Objects: adding '".\list\imu.o"'
+### List of Objects: adding '".\list\mpu6050.o"'
+### List of Objects: adding '".\list\pwm.o"'
+### List of Objects: adding '".\list\usart.o"'
+### List of Objects: adding '".\list\pid.o"'
+### List of Objects: adding '".\list\misc.o"'
+### List of Objects: adding '".\list\stm32f10x_exti.o"'
+### List of Objects: adding '".\list\stm32f10x_flash.o"'
+### List of Objects: adding '".\list\stm32f10x_gpio.o"'
+### List of Objects: adding '".\list\stm32f10x_i2c.o"'
+### List of Objects: adding '".\list\stm32f10x_rcc.o"'
+### List of Objects: adding '".\list\stm32f10x_tim.o"'
+### List of Objects: adding '".\list\stm32f10x_usart.o"'
+### List of Objects: adding '".\list\main.o"'
+### List of Objects: adding '".\list\stm32f10x_it.o"'
+### List of Objects: adding '".\list\startup_stm32f10x_md.o"'
+### ADS-LD Command completed:
+--device DARMSTM ".\list\core_cm3.o" ".\list\system_stm32f10x.o" ".\list\delay.o" ".\list\hmc5883l.o" ".\list\i2c.o" ".\list\imu.o" ".\list\mpu6050.o" ".\list\pwm.o" ".\list\usart.o" ".\list\pid.o" ".\list\misc.o" ".\list\stm32f10x_exti.o" ".\list\stm32f10x_flash.o" ".\list\stm32f10x_gpio.o" ".\list\stm32f10x_i2c.o" ".\list\stm32f10x_rcc.o" ".\list\stm32f10x_tim.o" ".\list\stm32f10x_usart.o" ".\list\main.o" ".\list\stm32f10x_it.o" ".\list\startup_stm32f10x_md.o" --library_type=microlib --ro-base 0x08000000 --entry 0x08000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LIST\FLY_project.map" -o ".\LIST\FLY_project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\LIST\FLY_project.axf'
+### ADS-LD Command File: '.\LIST\FLY_project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\LIST\FLY_project.lnp', Handle=0x000003B8
+### Writing '.lnp' file
+### ADS-LD Command file '.\LIST\FLY_project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

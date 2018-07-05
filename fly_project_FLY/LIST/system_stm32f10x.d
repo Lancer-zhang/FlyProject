@@ -1,0 +1,16 @@
+.\list\system_stm32f10x.o: CMSIS\system_stm32f10x.c
+.\list\system_stm32f10x.o: CMSIS\stm32f10x.h
+.\list\system_stm32f10x.o: CMSIS\core_cm3.h
+.\list\system_stm32f10x.o: F:\keil5\ARM\ARMCC\bin\..\include\stdint.h
+.\list\system_stm32f10x.o: CMSIS\system_stm32f10x.h
+.\list\system_stm32f10x.o: .\USER\stm32f10x_conf.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\stm32f10x_exti.h
+.\list\system_stm32f10x.o: .\CMSIS\stm32f10x.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\stm32f10x_gpio.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\stm32f10x_i2c.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\stm32f10x_rcc.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\stm32f10x_sdio.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\stm32f10x_spi.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\stm32f10x_tim.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\stm32f10x_usart.h
+.\list\system_stm32f10x.o: .\STM32_LIB\inc\misc.h

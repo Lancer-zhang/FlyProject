@@ -1,0 +1,55 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\fly_project_FLY\FLY_project.uvproj
+Project File Date:  08/12/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling Pid.c...
+CODE\Pid.c(117): warning:  #177-D: variable "gyro_old" was declared but never referenced
+        float gyro_old=0,pidcore_out;
+CODE\Pid.c: 1 warning, 0 errors
+linking...
+Program Size: Code=23772 RO-data=508 RW-data=300 ZI-data=1652  
+FromELF: creating hex file...
+".\LIST\FLY_project.axf" - 0 Error(s), 1 Warning(s).
+Load "D:\\fly_project_FLY\\LIST\\FLY_project.axf" 
+Set JLink Project File to "D:\fly_project_FLY\JLinkSettings.ini"
+* JLink Info: Device "STM32F103RB" selected (128 KB flash, 20 KB RAM).
+ 
+JLink info:
+------------
+DLL: V4.80g, compiled Feb 13 2014 20:50:02
+Firmware: J-Link V9 compiled Oct 28 2014 19:25:34
+Hardware: V9.00
+Feature(s) : GDB, RDI, FlashBP, FlashDL, JFlash 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+ROMTableAddr = 0xE00FF003
+ 
+Target info:
+------------
+Device: STM32F103RB
+VTarget = 3.283V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 1000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+Application running ...
+</pre>
+</body>
+</html>
